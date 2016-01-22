@@ -65,9 +65,7 @@
     </ul>
   </li>
   <li><a class="MenuBarItemSubmenu" href="../Events.html">Events</a>
-    <ul>
-      <li><a href="#">Happy Sunday</a>      </li>
-</ul>
+    
   </li>
   <li><a href="#" class="MenuBarItemSubmenu">Online form</a>
     <ul>
