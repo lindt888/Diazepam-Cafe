@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	background: url(../Images/wood-slat-background.jpg);
+	height:100%;
+  	width:100%;
+  	
+	
+} 
+#header{
+	background: url(../Images/winter-silver-background-with-snowflakes_1048-85.jpg);
+	color: red;
+}
+#left{
+	width: 15%;
+	top:0px;
+	left:0px
+	position: absolute;
+	
+}
+#right{
+	position: absolute;
+	top: 0px;
+	right:0px;
+	width: 85%;
+	text-align:center;
+	font-size: 125px;
+	font-family: GothicE;
+	
+	
+	color: #900;
+}
+
+#section{
+	background: url(../Images/JerodWebsiteMainPageBackground.jpg)
+	text-align: center;
+	font-family: "Lucida Calligraphy";
+	color: #FFF;
+}
+#edit{
+	text-align: center;
+}
+#table2{
+	background: url(../Images/JerodWebsiteMainPageBackground.jpg);
+}
+
+
+#footer{
+	background: url(../Images/1893488.jpg);
+	font-family: "Chaparral Pro Light";
+	color: #633;
+}
+.end{
+	text-align: left;
+	font-family: "Chaparral Pro";
+	color:#F00;
+}
+
+#container section #section p {
+	text-align: center;
+}
+#container section #section table tr td {
+	text-align: center;
+}
+#container section #section div {
+	text-align: center;
+}
+#container section #section h3 {
+	text-align: center;
+}
+#container section #section .ordertext {
+	text-align: center;
+}

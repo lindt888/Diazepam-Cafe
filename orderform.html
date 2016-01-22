@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/DiazepamCafetemp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>About us</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="Stylesheets/diazepamtemp.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+  <header>
+  	<div id="header">
+    	<div id="left"><img src="Images/Diazepam.jpg" width="186" height="179" alt="logo" /></div>
+		<div id ="right">	Diazepam Cafe</div>
+    </div>
+  </header>
+  <nav>
+    <div id="nav">
+    	<ul id="MenuBar1" class="MenuBarHorizontal">
+  <li><a class="MenuBarItemSubmenu" href="index.html">Home</a>
+    
+  </li>
+  <li><a href="#" class="MenuBarItemSubmenu">Products</a>
+    <ul>
+      <li><a href="IceCream.html" class="MenuBarItemSubmenu">Ice creams</a>
+        <ul>
+          <li><a href="CupsIceCream.html">Cups</a></li>
+          <li><a href="Cones.html">Cones</a></li>
+        </ul>
+      </li>
+      <li><a href="CookiesAndCream.html" class="MenuBarItemSubmenu">Ice Cream Cakes</a>
+        <ul>
+          <li><a href="CookiesAndCream.html">Cookies and Cream</a></li>
+          <li><a href="Vanilla.html">Vanila</a></li>
+        </ul>
+      </li>
+      <li><a href="FrozenYogurt.html">Frozen yogurts</a></li>
+      <li><a href="IceCreamMilkShake.html" class="MenuBarItemSubmenu">Ice Cream Milkshakes</a>
+        <ul>
+          <li><a href="CreamAndCookiesMilkShake.html">Cookies and cream</a></li>
+          <li><a href="MintMilkShakes.html">Mint</a></li>
+          <li><a href="ChocolateIceCreamMilkShakes.html">Chocolate</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  	
+  <li><a href="#" class="MenuBarItemSubmenu">Services page</a>
+    <ul>
+      <li><a href="delivery.html">Delivery</a></li>
+      <li><a href="PartyPlanners.html">Party planners</a></li>
+      <li><a href="#">Exchange &amp; Returns</a></li>
+    </ul>
+  </li>
+  <li><a href="#" class="MenuBarItemSubmenu">Café with fashion shows</a>
+    <ul>
+      <li><a href="NewCafe.html">New caf&eacute;</a></li>
+      <li><a href="#">Promotion</a></li>
+    </ul>
+  </li>
+  <li><a class="MenuBarItemSubmenu" href="Events.html">Events</a>
+    <ul>
+      <li><a href="#">Happy Sunday</a>      </li>
+</ul>
+  </li>
+  <li><a href="#" class="MenuBarItemSubmenu">Online form</a>
+    <ul>
+      <li><a href="orderform.html">Order form</a></li>
+      <li><a href="FeedBackForm.html">Feedback form</a></li>
+    </ul>
+  </li>
+   	  </ul>
+    </div>
+    	
+  </nav>
+  <section>
+    <div id="section"><!-- InstanceBeginEditable name="content" -->
+    
+    <script>
+function calculatePrice(myform){
+  var floor = Math.floor;
+  //Get selected data  
+  var mgc = document.getElementById("mangocup").value;
+  var sbc = document.getElementById("strawberrycup").value;
+  var clc = document.getElementById("chocolatecup").value;
+  var vc = document.getElementById("vanilacup").value;
+  
+  var clck = document.getElementById("chocolatecookie").value;
+  var sbck = document.getElementById("strawberrycookie").value;
+  var mgck = document.getElementById("mangocookie").value;
+  
+  var mgy = document.getElementById("mangoyogurt").value;
+  var cly = document.getElementById("chocolateyogurt").value;
+  var vy = document.getElementById("vanilayogurt").value;
+  
+  var cms = document.getElementById("chocolatemilkshake").value;
+  var mms = document.getElementById("mintmilkshake").value;
+  
+    
+  var sbcn = document.getElementById("strawberrycupno").value;
+  var mgcn = document.getElementById("mangocupno").value;
+  var clcn = document.getElementById("chocolatecupno").value;
+  var vcn = document.getElementById("vanilacupno").value;
+  
+  var clckn = document.getElementById("chocolatecookieno").value;
+  var sbckn = document.getElementById("strawberrycookieno").value;
+  var mgckn = document.getElementById("mangocookieno").value;
+  
+  var mgyn = document.getElementById("mangoyogurtno").value;
+  var clyn = document.getElementById("chocolateyogurtno").value;
+  var vyn = document.getElementById("vanilayogurtno").value;
+  
+  var cmsn = document.getElementById("chocolatemilkshakeno").value;
+  var mmsn = document.getElementById("mintmilkshakeno").value;
+  
+    
+  //convert data to integers
+
+  //calculate total value  
+  var total = floor(mgc)*floor(mgcn) + floor(sbc)*floor(sbcn) + floor(clc)*floor(clcn) + floor(vc)*floor(vcn) + floor(clck)*floor(clckn) + floor(mgck)*floor(mgckn) + floor(sbck)*floor(sbckn) + floor(mgy)*floor(mgyn) + floor(cly)*floor(clyn) + floor(vy)*floor(vyn) + floor(cms)*floor(cmsn) + floor(mms)*floor(mmsn); 
+    
+  //print value to  PicExtPrice 
+  document.getElementById("PicExtPrice").value=total;
+
+}
+
+</script>
+    <div id="section"><!-- TemplateBeginEditable name="content" -->
+    
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h2 class="ordertext">ORDER FORM</h2>
+    <p>&nbsp;</p>
+   
+    <table width="600" border="2" id ="ordertb" align="center">
+      <tr>
+        <td width="128">Name:</td>
+        <td width="450"><form id="form1" name="form1" method="post" action="">
+          <label for="textfield"></label>
+          <input name="textfield" type="text" id="textfield" size="50" />
+        </form></td>
+      </tr>
+      <tr>
+        <td>Number in party:</td>
+        <td><form id="form2" name="form2" method="post" action="">
+          <label for="textfield2"></label>
+          <input name="textfield2" type="text" id="textfield2" size="50" />
+        </form></td>
+      </tr>
+      <tr>
+        <td>Date:</td>
+        <td><form id="form3" name="form3" method="post" action="">
+          <label for="select"></label>
+          <select name="select" id="select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <label for="select2"></label>
+          <select name="select2" id="select2">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <label for="select3"></label>
+          <select name="select3" id="select3">
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+          </select>
+        </form></td>
+      </tr>
+      <tr>
+        <td height="38">Desired time:</td>
+        <td><form id="form4" name="form4" method="post" action="">
+          <label for="textarea"></label>
+          <label for="textarea"></label>
+          <label for="textfield3"></label>
+          <input name="textfield3" type="text" id="textfield3" size="50" />
+        </form></td>
+      </tr>
+      <tr>
+        <td>Phone:</td>
+        <td><form id="form5" name="form5" method="post" action="">
+          <label for="textfield4"></label>
+          <input name="textfield4" type="text" id="textfield4" size="50" />
+        </form></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><form id="form8" name="form8" method="post" action="">
+          <label for="textfield6"></label>
+          <input name="textfield5" type="text" id="textfield6" size="50" />
+        </form></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <p class="line">Menu:    </p>
+    <form name = "myform">
+      <div id ="ordermenu">
+    	<div>
+<input name="strawberrycup" id ="strawberrycup" type="radio" value="5" /> 
+  Strawberry cup($5)
+
+x
+  <input name="strawberrycupno" type="text" id="strawberrycupno" size="5" />
+  
+
+<input name="mangocup" id="mangocup" type="radio" value="6" /> 
+  Mango cup($6)
+
+x
+  <input name="mangocupno" type="text" id="mangocupno" size="6" />
+
+<input name="chocolatecup" id="chocolatecup" type="radio" value="5" /> 
+  Chocolate cup($5)
+
+x
+  <input name="chocolatecupno" type="text" id="chocolatecupno" size="5" />
+
+<input name="vanilacup" id="vanilacup" type="radio" value="5" /> 
+  Vanila cup($5)
+
+x
+  <input name="vanilacupno" type="text" id="vanilacupno" size="5" /> 
+</div>
+<div>
+	<input name="mangocookie" id="mangocookie" type="radio" value="3" /> 
+  Mango cookie($3)
+
+x
+  <input name="mangocookieno" type="text" id="mangocookieno" size="5" />
+  
+  <input name="strawberrycookie" id="strawberrycookie" type="radio" value="3" /> 
+  Strawberry cookie($3)
+
+x
+  <input name="strawberrycookieno" type="text" id="strawberrycookieno" size="5" />
+  
+  <input name="chocolatecookie" id="chocolatecookie" type="radio" value="3" /> 
+  Chocolate cookie($3)
+
+x
+  <input name="chocolatecookieno" type="text" id="chocolatecookieno" size="5" />
+  
+</div>
+<div>
+	<input name="mangoyogurt" id="mangoyogurt" type="radio" value="4" /> 
+  Mango Yogurt($4)
+
+x
+  <input name="mangoyogurtno" type="text" id="mangoyogurtno" size="5" />
+  
+  <input name="chocolateyogurt" id="chocolateyogurt" type="radio" value="4" /> 
+  Chocolate cookie($4)
+
+x
+  <input name="chocolateyogurtno" type="text" id="chocolateyogurtno" size="5" />
+  
+  <input name="vanilayogurt" id="vanilayogurt" type="radio" value="4" /> 
+  Vanila cookie($4)
+
+x
+  <input name="vanilayogurtno" type="text" id="vanilayogurtno" size="5" />
+</div>
+<div>
+	<input name="chocolatemilkshake" id="chocolatemilkshake" type="radio" value="6" /> 
+  Chocolate milkshake($6)
+
+x
+  <input name="chocolatemilkshakeno" type="text" id="chocolatemilkshakeno" size="5" />
+  
+  <input name="mintmilkshake" id="mintmilkshake" type="radio" value="6" /> 
+  Mint milkshake($6)
+
+x
+  <input name="mintmilkshakeno" type="text" id="mintmilkshakeno" size="5" />
+</div>
+</div>
+</form>
+<button type="button" onclick="calculatePrice()">
+
+Calculate</button>
+<p class="line">Total pay:
+  <INPUT type="text" id="PicExtPrice" Size=8></p>
+
+    
+    
+    <form id="form7" name="form7" method="post" action="">
+    <div id ="button">
+       <input type="submit" name="submit" id="submit" value="Submit" />
+      <input type="submit" name="reset" id="reset" value="Reset" />
+    </div>
+   
+    </form>
+    
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <!-- InstanceEndEditable --></div>
+  </section>
+   
+  
+  </section>
+  <footer>
+    <div id="footer">
+    <table width="1240" height="174" border="0" id ="table3">
+ 
+  <tr>
+    <td><h3><a href="Contacts.html">Contact Information </a></h3>
+    <p>Phone number: (+65) 44446677</p>
+    <p>Fax: 44446678</p>
+    <p>&nbsp;</p></td>
+    <td><h3><a href="AboutUs.html">Information about the organization</a></h3>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+    <td><h3>FAQ</h3>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+    <td><h3>Chat Services</h3>
+    <p>E-mail: diazepam@gmail.com</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+  </tr>
+  <p>
+  <tr>
+    <td colspan="4" class="end">© 2015 Diazepam Café. All rights reserved.</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    </div>
+  </footer>  
+  
+</div>
+<p>&nbsp;</p>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+  </script>
+</body>
+<!-- InstanceEnd --></html>
